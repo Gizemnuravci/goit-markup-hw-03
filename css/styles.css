@@ -56,6 +56,21 @@ ul {
 .navbar {
   display: flex;
   gap: 40px;
+  align-items: center;
+  justify-content: center;
+}
+.link1 {
+  width: 48px;
+  height: 24px;
+  margin-right: 347px;
+}
+.link2 {
+  width: 66px;
+  height: 24px;
+}
+.link3 {
+  width: 67px;
+  height: 24px;
 }
 .navbar ul li a {
   text-decoration: none;
@@ -72,6 +87,10 @@ ul {
   color: #404bbf;
   list-style: none;
   text-decoration: none;
+  display: flex;
+  gap: 40px;
+  margin: 0;
+  padding: 0;
 }
 
 .address a {
@@ -91,8 +110,6 @@ ul {
   color: #434455;
 }
 .main-title {
-  width: 496px;
-  height: 120px;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 56px;
@@ -158,6 +175,11 @@ ul {
 .section2 ul li {
   list-style: none;
   text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0;
+  padding: 0;
 }
 
 .section2 p {
@@ -177,8 +199,6 @@ ul {
 }
 .section3 ul li {
   list-style: none;
-  width: 264px;
-  height: 380px;
 }
 
 .section3 ul li img {
@@ -186,6 +206,8 @@ ul {
   height: 260px;
   gap: 32px;
   padding-bottom: 32px;
+  flex-wrap: wrap;
+  display: flex;
 }
 
 .section3 ul li h3 {
@@ -195,6 +217,7 @@ ul {
   letter-spacing: 0.4px;
   text-align: center;
   color: #2e2f42;
+  display: flex;
 }
 .section3 ul li p {
   font-size: 16px;
@@ -202,6 +225,7 @@ ul {
   letter-spacing: 0.32px;
   text-align: center;
   color: #434455;
+  display: flex;
 }
 
 .section3 {
@@ -253,6 +277,8 @@ ul {
 
 .the-end {
   background-color: #2e2f42;
+  width: 1440px;
+  height: 312px;
 }
 .the-end a .studio {
   font-family: "Raleway", sans-serif;
