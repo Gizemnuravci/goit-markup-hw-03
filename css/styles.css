@@ -40,15 +40,22 @@ ul {
 }
 .page-header {
   border-bottom: 1px solid #e7e9fc;
+  width: 1440px;
+  height: 72px;
 }
 .logo {
   text-decoration: none;
 }
 
-.page-header .navbar {
+.page-header .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.navbar {
+  display: flex;
+  gap: 40px;
 }
 .navbar ul li a {
   text-decoration: none;
@@ -68,17 +75,24 @@ ul {
 }
 
 .address a {
+  width: 153px;
+  height: 24px;
   font-family: "Raleway", sans-serif;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
   color: #404bbf;
   text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .address a:hover {
   color: #434455;
 }
 .main-title {
+  width: 496px;
+  height: 120px;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 56px;
@@ -86,8 +100,14 @@ ul {
   letter-spacing: 1.12px;
   color: #ffffff;
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
 }
 .button {
+  width: 169px;
+  height: 56px;
   cursor: pointer;
   font-family: "Raleway", sans-serif;
   font-weight: 500;
@@ -96,6 +116,16 @@ ul {
   letter-spacing: 0.64px;
   color: #ffffff;
   background-color: #404bbf;
+  gap: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  padding-top: 16px;
+  padding-right: 32px;
+  padding-bottom: 16px;
+  padding-left: 32px;
+  margin: 0 auto;
 }
 .button :hover {
   color: #4d5ae5;
@@ -108,8 +138,14 @@ ul {
   padding-bottom: 120px;
 }
 .section1 {
+  width: 1440px;
+  height: 600px;
   background-color: #2e2f42;
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
 }
 
 .header3 {
@@ -141,11 +177,15 @@ ul {
 }
 .section3 ul li {
   list-style: none;
+  width: 264px;
+  height: 380px;
 }
 
 .section3 ul li img {
   width: 264px;
   height: 260px;
+  gap: 32px;
+  padding-bottom: 32px;
 }
 
 .section3 ul li h3 {
@@ -183,6 +223,12 @@ ul {
 .section4 ul li {
   list-style: none;
   text-align: center;
+  border-bottom: 1px solid #e7e9fc;
+  padding-top: 32px;
+  padding-right: 16px;
+  padding-bottom: 32px;
+  padding-left: 16px;
+  gap: 8px;
 }
 
 .section4 ul li img {
