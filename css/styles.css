@@ -172,6 +172,7 @@ ul {
 }
 .section3 ul li {
   list-style: none;
+  background-color: #ffffff;
 }
 .section3 ul {
   display: flex;
@@ -243,7 +244,12 @@ ul {
   width: 360px;
   height: 300px;
   display: block;
-  margin-bottom: 32px;
+}
+
+.section4 .card-content {
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  padding: 32px;
 }
 
 .section4 ul li h3 {
